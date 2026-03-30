@@ -23,7 +23,11 @@ body {
     max-width: 100%;
     height: auto;
 }
-/* Gallery spacing */
+/* Gallery spacing and remove underline */
+#galeria .glightbox {
+    text-decoration: none;
+    display: block;
+}
 #galeria .img-fluid {
     height: 200px;
     object-fit: cover;
