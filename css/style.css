@@ -6,15 +6,21 @@ body {
 .navbar {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-.bg-success {
-    background-color: #28a745 !important;
+.bg-primary-mendoza {
+    background-color: #003366 !important;
+}
+.text-primary-mendoza {
+    color: #003366 !important;
+}
+.border-primary-mendoza {
+    border-color: #003366 !important;
 }
 .hero {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../img/2.jpeg');
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
-    color: #333;
+    color: #003366;
 }
 .fb-page {
     margin-top: 1rem;
