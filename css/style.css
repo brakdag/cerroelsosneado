@@ -9,6 +9,23 @@ body {
 .bg-success {
     background-color: #28a745 !important;
 }
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+}
 .fb-page {
     margin-top: 1rem;
+    width: 100% !important;
+}
+/* Ensure images fit their containers */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* Gallery spacing */
+#galeria .img-fluid {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
 }
