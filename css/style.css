@@ -10,9 +10,11 @@ body {
     background-color: #28a745 !important;
 }
 .hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../img/2.jpeg');
     background-size: cover;
     background-position: center;
-    padding: 3rem 0;
+    padding: 5rem 0;
+    color: #333;
 }
 .fb-page {
     margin-top: 1rem;
